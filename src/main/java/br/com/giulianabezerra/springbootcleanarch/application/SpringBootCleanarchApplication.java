@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.springbootcleanarch;
+package br.com.giulianabezerra.springbootcleanarch.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
