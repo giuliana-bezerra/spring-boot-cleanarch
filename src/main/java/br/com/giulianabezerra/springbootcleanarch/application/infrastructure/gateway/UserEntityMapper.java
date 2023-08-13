@@ -1,7 +1,7 @@
-package br.com.giulianabezerra.springbootcleanarch.application.adapters.gateway;
+package br.com.giulianabezerra.springbootcleanarch.application.infrastructure.gateway;
 
-import br.com.giulianabezerra.springbootcleanarch.application.adapters.persistence.UserEntity;
 import br.com.giulianabezerra.springbootcleanarch.application.core.entity.User;
+import br.com.giulianabezerra.springbootcleanarch.application.infrastructure.persistence.UserEntity;
 
 public class UserEntityMapper {
   UserEntity toEntity(User userDomainObj) {

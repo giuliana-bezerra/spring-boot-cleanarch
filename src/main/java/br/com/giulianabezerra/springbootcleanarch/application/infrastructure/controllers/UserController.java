@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.springbootcleanarch.application.adapters.controllers;
+package br.com.giulianabezerra.springbootcleanarch.application.infrastructure.controllers;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

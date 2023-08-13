@@ -1,7 +1,7 @@
 package br.com.giulianabezerra.springbootcleanarch.application.core.usecase;
 
-import br.com.giulianabezerra.springbootcleanarch.application.adapters.controllers.CreateUserRequest;
 import br.com.giulianabezerra.springbootcleanarch.application.core.entity.User;
+import br.com.giulianabezerra.springbootcleanarch.application.infrastructure.controllers.CreateUserRequest;
 
 public class CreateUserUseCase {
   private UserGateway userGateway;

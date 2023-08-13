@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.springbootcleanarch.application.adapters.persistence;
+package br.com.giulianabezerra.springbootcleanarch.application.infrastructure.persistence;
 
 import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Table;
