@@ -1,4 +1,4 @@
-package br.com.giulianabezerra.springbootcleanarch.application.infrastructure.persistence;
+package br.com.giulianabezerra.springbootcleanarch.infrastructure.persistence;
 
 import org.springframework.data.repository.CrudRepository;
 

@@ -1,9 +1,9 @@
-package br.com.giulianabezerra.springbootcleanarch.application.infrastructure.gateway;
+package br.com.giulianabezerra.springbootcleanarch.infrastructure.gateways;
 
-import br.com.giulianabezerra.springbootcleanarch.application.core.entity.User;
-import br.com.giulianabezerra.springbootcleanarch.application.core.usecase.UserGateway;
-import br.com.giulianabezerra.springbootcleanarch.application.infrastructure.persistence.UserEntity;
-import br.com.giulianabezerra.springbootcleanarch.application.infrastructure.persistence.UserRepository;
+import br.com.giulianabezerra.springbootcleanarch.application.gateways.UserGateway;
+import br.com.giulianabezerra.springbootcleanarch.domain.entity.User;
+import br.com.giulianabezerra.springbootcleanarch.infrastructure.persistence.UserEntity;
+import br.com.giulianabezerra.springbootcleanarch.infrastructure.persistence.UserRepository;
 
 public class UserRepositoryGateway implements UserGateway {
   private final UserRepository userRepository;
