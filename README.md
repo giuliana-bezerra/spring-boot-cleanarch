@@ -41,4 +41,3 @@ Para ajudar a acompanhar o vídeo, foram criadas tags com cada fase do projeto, 
 
 - [Projeto Inicial](https://github.com/giuliana-bezerra/spring-boot-cleanarch/releases/tag/v1.0)
 - [Projeto com Clean Arch](https://github.com/giuliana-bezerra/spring-boot-cleanarch/releases/tag/v2.0)
-- [Projeto com Clean Arch Refatorado](https://github.com/giuliana-bezerra/spring-boot-cleanarch/releases/tag/v3.0)
