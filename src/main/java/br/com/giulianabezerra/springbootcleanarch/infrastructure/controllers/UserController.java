@@ -22,7 +22,8 @@ public class UserController {
 
   @PostMapping
   public CreateUserResponse createUser(@RequestBody CreateUserRequest request) {
-    User user = createUserUseCase.createUser(request);
+    User userBusinessObj = userDTOMapper.toUser(request);
+    User user = createUserUseCase.createUser(userBusinessObj);
     return userDTOMapper.toResponse(user);
   }
 }

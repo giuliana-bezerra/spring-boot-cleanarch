@@ -2,19 +2,15 @@ package br.com.giulianabezerra.springbootcleanarch.application.usecases;
 
 import br.com.giulianabezerra.springbootcleanarch.application.gateways.UserGateway;
 import br.com.giulianabezerra.springbootcleanarch.domain.entity.User;
-import br.com.giulianabezerra.springbootcleanarch.infrastructure.controllers.CreateUserRequest;
 
 public class CreateUserInteractor {
-  private UserGateway userGateway;
-  private UserMapper userMapper;
+  private final UserGateway userGateway;
 
-  public CreateUserInteractor(UserGateway createUser, UserMapper userMapper) {
+  public CreateUserInteractor(UserGateway createUser) {
     this.userGateway = createUser;
-    this.userMapper = userMapper;
   }
 
-  public User createUser(CreateUserRequest userDTO) {
-    User userDomainObj = userMapper.toUserDomainObj(userDTO);
-    return userGateway.createUser(userDomainObj);
+  public User createUser(User user) {
+    return userGateway.createUser(user);
   }
 }
