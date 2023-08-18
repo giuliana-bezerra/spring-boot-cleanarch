@@ -7,7 +7,7 @@
  <img src="https://img.shields.io/static/v1?label=Tipo&message=Demo&color=8257E5&labelColor=000000" alt="Demo" />
 </p>
 
-Demo apresentada [nesse vídeo]() para ilustrar como implementar a arquitetura limpa utilizando Spring Boot.
+Demo apresentada [nesse vídeo](https://www.youtube.com/watch?v=hit0XHGt4WI) para ilustrar como implementar a arquitetura limpa utilizando Spring Boot.
 
 ## Tecnologias
  
@@ -37,7 +37,7 @@ http POST :8080/users username=username password=password email=email
 
 ## Versões do Projeto
 
-Para ajudar a acompanhar o vídeo, foram criadas tags com cada fase do projeto, a 3.0 foi criada para conter os ajustes feitos após a produção do vídeo, com melhorias que achei válidas adicionar, contendo inclusive feedbacks e sugestões dos comentários do vídeo.
+Para ajudar a acompanhar o vídeo, foram criadas tags com cada fase do projeto:
 
 - [Projeto Inicial](https://github.com/giuliana-bezerra/spring-boot-cleanarch/releases/tag/v1.0)
 - [Projeto com Clean Arch](https://github.com/giuliana-bezerra/spring-boot-cleanarch/releases/tag/v2.0)
